@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Hour</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body class="fade-in">
+    <div class="index-header">
+        <p class="header-officehour">Office Hour</p>
+        <p>for SKKU</p>
+    </div>
+
+    <div class="copyright">
+        <p>Made by.</p>
+        <p>Systems Management Engineering</p>
+        <p>& Computer Science</p>
+        <p>Hong Jin Hwa</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                document.body.classList.add('fade-out');
+                setTimeout(function() {
+                    window.location.href = "/home";
+                }, 1000);
+            }, 2500);
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    margin: 8px;
+    line-height: 120%
+}
+
+.index-header {
+    width: 30%;
+    min-width: 250px;
+    padding-top: 10%;
+    text-align: right;
+}
+
+.header-officehour {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.copyright {
+    width: 80%;
+    min-width: 300px;
+    padding-top: 25%;
+    text-align: right;
+}
